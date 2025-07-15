@@ -1,0 +1,48 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["lodash-fp", "react", "tailwindcss", "unused-imports"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "plugin:lodash-fp/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:tailwindcss/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "tailwindcss": {
+      "config": "tailwind.config.cjs"
+    }
+  },
+  "rules": {
+    "react/prop-types": "off",
+    "react/jsx-filename-extension": [1, {"extensions":  [".js", ".jsx", ".ts", ".tsx"]}],
+    "newline-after-var": "warn",
+    "newline-before-return": "warn",
+    "no-multiple-empty-lines": "warn",
+    "comma-dangle" : "warn",
+    "arrow-body-style": ["warn", "as-needed"],
+    "unused-imports/no-unused-imports": "error",
+    "no-duplicate-imports": "error",
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/self-closing-comp": "warn",
+    "@typescript-eslint/array-type": [
+      1,
+      {
+        "default": "generic"
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "argsIgnorePattern": "^_" }
+    ],
+    "react/no-array-index-key": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "warn",
+    "react/display-name": 0
+  }
+}
