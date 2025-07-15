@@ -76,4 +76,4 @@ Make inputs user-friendly by adding basic input formatting:
 - 👉 **Expiry Date Field**:
     - Format input as `MM/YY` automatically while typing.
 
-- 👉🏻 **Submit button** disabled when for is invalid.
+- 👉🏻 **Submit button** disabled when form is invalid.
