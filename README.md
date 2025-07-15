@@ -1,4 +1,26 @@
-# Task Description
+# Credit Card Form
+
+## 📦 Getting Started
+
+You can start working on this project in two ways:
+
+- **Option 1:** Clone the repository.
+- **Option 2:** Download the project as a ZIP archive.
+
+### 📂 Project Setup
+
+1. Open the project folder in your code editor.
+2. Install dependencies `npm install`
+3. Start the development server `npm run dev`
+4. The project will be available at: `http://localhost:5173/`
+
+### 🚀 Working Process
+
+1. **Create a new branch** for your task: `git checkout -b <your-branch-name>`
+2. Make your changes and commit them.
+3. Push your branch to your forked repository: `git push origin <your-branch-name>`
+4. **Open a Pull Request (PR)** with your solution.
+5. Share the **link to your PR** or invite us to review it.
 
 ### Task 1: Improve Form Usability
 
