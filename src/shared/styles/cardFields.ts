@@ -18,7 +18,6 @@ export const sx = {
   }
 };
 export const InputProps = {
-  disableUnderline: true,
   sx: {
     height: '100%',
     padding: 0,

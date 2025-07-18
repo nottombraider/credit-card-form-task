@@ -98,7 +98,7 @@ export const App = () => {
                   <i.TextField
                     {...register('ccNumber')}
                     placeholder="1234 5678 9012 3456"
-                    value={ccNumber}
+                    value={ccNumber || ''}
                     onChange={e =>
                       i.handleCardNumberSpacing({
                         e: e as React.ChangeEvent<HTMLInputElement>,
@@ -140,7 +140,6 @@ export const App = () => {
                           }}
                           displayEmpty
                           variant="standard"
-                          disableUnderline
                           IconComponent={() => null}
                           renderValue={selected => (
                             <img
@@ -189,7 +188,7 @@ export const App = () => {
                     />
                     <i.TextField
                       {...register('expireDate')}
-                      value={expireDate}
+                      value={expireDate || ''}
                       onChange={e =>
                         i.handleExpireDateChange({
                           e: e as React.ChangeEvent<HTMLInputElement>,
